@@ -153,7 +153,7 @@ Notablemente, vemos que difiere un poco con feature importance del mismo modelo.
 
 ### Interpretación Local (¿Por qué este cliente fue aceptado?)
 
-![SHAP Summary Plot](/reports/figures/shap_waterfall_plot_user_102.png) 
+![SHAP local Plot](/reports/figures/shap_local_waterfall_plot_user_102.png) 
 
 Analizamos un cliente específico que fue aceptado (`target=0`) usando `shap.force_plot`.
 * **Predicción Base:** El cliente promedio tiene una probabilidad de impago de `-0.23%`.
