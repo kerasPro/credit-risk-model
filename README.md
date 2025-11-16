@@ -10,8 +10,11 @@ A model to predict credit default risk using LendingClub data
 Este proyecto desarrolla un modelo de machine learning para predecir la probabilidad de que un solicitante de préstamo incumpla (`Charged Off`) con sus pagos, utilizando el dataset de LendingClub. El objetivo es construir una herramienta robusta, interpretable y justa para apoyar las decisiones de aprobación de créditos en una entidad financiera.
 
 **Desarrollado por:** `[Ronaldo David Cornejo Valencia]`
+
 **Repositorio de GitHub:** `https://github.com/kerasPro/credit-risk-model`
+
 **Repositorio de App de Monitoreo** `https://github.com/kerasPro/credit-risk-monitoring`
+
 **Repositorio de Experimentos** `https://dagshub.com/kerasPro/credit-risk-model/experiments`
 
 REVISAR LA APLICACIÓN DE MONITOREO DEL MODELO EN SU PROPIO REPOSITORIO
@@ -150,7 +153,7 @@ Notablemente, vemos que difiere un poco con feature importance del mismo modelo.
 
 ### Interpretación Local (¿Por qué este cliente fue aceptado?)
 
-![SHAP Summary Plot](/reports/figures/shap_global_feature_importance_beeswarm_plot.png) 
+![SHAP Summary Plot](/reports/figures/shap_waterfall_plot_user_102.png) 
 
 Analizamos un cliente específico que fue aceptado (`target=0`) usando `shap.force_plot`.
 * **Predicción Base:** El cliente promedio tiene una probabilidad de impago de `-0.23%`.
