@@ -27,6 +27,7 @@ dependencies = [
     "python-dotenv",
     "ruff",
     "seaborn>=0.13.2",
+    "setuptools>=80.9.0",
     "tqdm",
     "typer",
 ]
